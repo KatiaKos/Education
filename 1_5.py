@@ -18,7 +18,7 @@ costs = float(input("Bведите издержки:  "))
 if profit > costs:
     print("Рентабельность вашейвыручки составила ", round(profit / costs , 2), "поздравляем! ваша фирма рентабельна")
     workers = int(input("Введите количество сотрудников фирмы "))
-    print(f"прибыль в расчете на одного сторудника соcтавила {round(profit / workers, 2)}у.е." )
+    print(f"прибыль в расчете на одного сотрудника соcтавила {round(profit / workers, 2)}у.е." )
 elif profit < costs:
     print("к сожалению, ваши доходы недостаточны")
 elif profit == costs:
