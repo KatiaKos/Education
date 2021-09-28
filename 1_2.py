@@ -1,11 +1,13 @@
 ##Denisova Ekaterina katia_kos@mail.ru
 
 #1.2. Пользователь вводит время в секундах. Пер
-s = int(input("Сколько секунд?"))
-h  = s // 3600
-m  = h // 60
-s = m // 60
+time = int(input("Сколько секунд?"))
+h = time // 3600
+m = (time - h*3600) // 60
+s = time - (h * 3600 + m * 60 )
 
-print (h,":", m, " : ", s)
+print(f"Время   {h}  чч : {m} мм : {s} сс")
+
+
 
 #тут мой мозг вышел
